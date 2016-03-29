@@ -1,6 +1,6 @@
 # Proposal: Revamp Roles
 
-*Author*: Brian Ccoai <@bcoca>
+*Author*: Brian Coca <@bcoca>
 
 *Date*: 04/01/2016
 
