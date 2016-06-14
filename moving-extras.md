@@ -1,4 +1,4 @@
-# Separate Extras Modules from Ansible Core, Move it to Community.
+# How to Separate Extras Modules from Ansible Core, Move it to Community.
 
 *Author*: Jason McKerr <@newtMcKerr>, James Cammarata
 
