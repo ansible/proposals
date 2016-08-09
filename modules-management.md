@@ -10,7 +10,7 @@
 
  - Estimated time to Implement: 3-4 months.
 
- ## Motivation and Problems
+## Motivation and Problems
 There are currently two module repositories: ansible-modules-core, and ansible-modules-extras.  Traditionally this has been recognized to mean that there is a standard for Core modules (since they are to be supported by the Ansible Core team and Red Hat) and Extras (modules that are part of Ansible, but more broadly contributed to and less supported).  In practice, Extras became roughly the same thing as Core since Extras are both distributed with Ansible and supported by the Ansible Core team.  
 
 That condition had the unintended consequences of forcing the Core team to set the requirements for Extras modules to be roughly the same as Core.  The result was that lots of modules contributed by the Ansible community were either rejected or asked to reach a certain level of robustness or feature-completion for inclusion.  This gave the community little room to have "starter" functionality, or a place to contribute simpler or differentiated functionality that is not necessarily a part of the "Core" product, but is nonetheless a good place to get other functionality into ansible.
@@ -52,12 +52,3 @@ Ansible Core team and Contributors (from the Contributor Summit at the 2016 Ansi
     - Document module_utils API
     - Non-module plugins: lookup/filter/test/etc, with auto-doc. Look at plugins/connection/__init__.py for how this would look in the code.  Would need to pull this out into html docs
     - Multiple version documentation (having devel/last stable at least in docs).
-
-
-
-
-
-
-
-
-
