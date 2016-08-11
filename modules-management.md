@@ -50,9 +50,3 @@ Ansible Core team and Contributors (from the Contributor Summit at the 2016 Ansi
     - Script or update to the release playbook to generate multiple tarballs
     - Update to code that drives testing to handle single repo (targeted PR testing may be harder.  Other things are just different)
     - Bot code needs to be updated to handle metadata - policy differences for ansible supported vs community supported and handling of metadata at all.
-  - Documentation
-    - Deliverables: Decision on how to write documentation for module_utils, plugins, and public API.
-      - Toshio thinks he has a good handle on how we can do these but needs to figure out where to put them in the documentation tree. Item for him and dharmabumstead/docschick to work out.
-    - Document module_utils API
-    - Non-module plugins: lookup/filter/test/etc, with auto-doc. Look at plugins/connection/__init__.py for how this would look in the code.  Would need to pull this out into html docs
-    - Multiple version documentation (having devel/last stable at least in docs).
