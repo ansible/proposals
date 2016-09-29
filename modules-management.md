@@ -18,7 +18,7 @@ That condition had the unintended consequences of forcing the Core team to set t
 Having multiple repos also made it more difficult for contributors to contribute things besides the module itself.  module_utils and tests for modules would have to be contributed to the main ansible repository even though the module itself lived in the ansible-modules-extras repository.  Bugs for modules might end up submitted against the main ansible repository or the ansible-modules-core repository even though the module lived in ansible-modules-extras.
 
 ## Solution
-Ansible Core team and Contributors (from the Contributor Summit at the 2016 Ansible Fest San Francisco) propose to create categories of ansible Modules where Modules are grouped by a rough category of like-functionality (Nagios Modules would be grouped together, as would AWS, VMWare, etc).  There are a large number of implications for that working in the Ansible workflow and Community:
+Ansible Core team and Contributors (from the Contributor Summit at the 2016 Ansible Fest San Francisco) propose to create categories of ansible Modules where Modules are grouped by a rough category of like-functionality (Nagios Modules would be grouped together, as would AWS, VMware, etc).  There are a large number of implications for that working in the Ansible workflow and Community:
   - There *will not* be multiple repos.  There will be one overall repo in github for all of Ansible.
   - We will start tagging modules to imply a "state" that the modules is in.
   - Current proposed states are:
