@@ -23,29 +23,22 @@ Ansible Core team and Contributors (from the Contributor Summit at the 2016 Ansi
     - We will remove the /{core,extra}/ par of the directory structure
     - `lib/ansible/modules/core/commands/shell.py` -> `lib/ansible/modules/commands/shell.py`
   - We will start tagging modules to imply a "state" that the modules is in.
-  - Current proposed states are:
-    - Stable: We have confidence that these are stable for a broad spectrum of uses.
-    - Curated: 
-      - It has been reviewed by an Ansible Core team member.
-      - Ansible is going to fix bugs in it if no one else is available.  Should mean that the module is stable in addition to us being on the hook to fix it.
-    - Supported (SLA)
-      - These are the core set of modules that Red Hat and the Ansible Core team support. 
-      - We will fix these
-      - We will set an SLA on problems with these modulse based on their criticality (to be defined elsewhere).
-     - These are not mutually exclusive
+  - States cover both how usable the module is and how the module is supported.
+    Full proposal with list of states and format of metadata here:
+    - https://github.com/ansible/proposals/issues/30
   - Github Issues and PRs
     - All issues will be associated with one repo, since there will be only one repo!
     - Move and close pr’s and issues so they end up in the right place. 
-    - *Existing PRs that are in flight will have to be reviewed and moved.*  
+    - *Existing PRs that are in flight will have to be reviewed and moved.*
   - Packaging
     - Sometime towards 2.3 (early to mid 2017) we will split packaging along functionality lines, *not* along support lines.  The reason for this one is that it decreases the likelihood that that modules would move among packages, which would be a major headache for users.
      - Rely on tagging in metadata to describe support levels rather than either packaging or repositories.
-     
+
 ## Before Merge
   - Ensure the sub directories under `ansible-modules*/` are alined, some modules may need `git mv` in advance to ensure categories are the same
-  - Define metadata format -- Sooner is better as many things depend on this
+  - <strike>Define metadata format -- Sooner is better as many things depend on this</strike>
      - Update `validate-modules` to enforce this, though should be configured to only WARN initially apart from on new modules
-  - Define tags we’re using for metadata(Toshio)
+  - <strike>Define tags we’re using for metadata(Toshio)</strike>
   - Code for PluginLoader to extract metadata and associate it with modules in a way that other code can emit warnings based on the metadata.
   - packaging -- setup.py needs to generate separate manifests via manifests
     - `--version` updated
