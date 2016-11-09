@@ -10,7 +10,7 @@
 
  - Estimated time to Implement: 3-4 months.
 
-## Motivation and Problems
+## Motivation and Problems 
 There are currently two module repositories: ansible-modules-core, and ansible-modules-extras.  Traditionally this has been recognized to mean that there is a standard for Core modules (since they are to be supported by the Ansible Core team and Red Hat) and Extras (modules that are part of Ansible, but more broadly contributed to and less supported).  In practice, Extras became roughly the same thing as Core since both Core and Extras are distributed with Ansible and supported by the Ansible Core team.  
 
 That condition had the unintended consequences of forcing the Core team to set the requirements for Extras modules to be roughly the same as Core.  The result was that lots of modules contributed by the Ansible community were either rejected or asked to reach a certain level of robustness or feature-completion for inclusion.  This gave the community little room to have "starter" functionality, or a place to contribute simpler or differentiated functionality that is not necessarily a part of the "Core" product, but is nonetheless a good place to get other functionality into ansible.
@@ -43,9 +43,9 @@ Ansible Core team and Contributors (from the Contributor Summit at the 2016 Ansi
      
 ## Before Merge
   - Ensure the sub directories under `ansible-modules*/` are alined, some modules may need `git mv` in advance to ensure categories are the same
-  - Define metadata format -- Sooner is better as many things depend on this
-     - Update `validate-modules` to enforce this, though should be configured to only WARN initially apart from on new modules
-  - Define tags we’re using for metadata(Toshio)
+  - <strike>Define metadata format -- Sooner is better as many things depend on this</strike>
+     - <strike>Update `validate-modules` to enforce this, though should be configured to only WARN initially apart from on new modules</strike>
+  - <strike>Define tags we’re using for metadata(Toshio)</strike>
   - Code for PluginLoader to extract metadata and associate it with modules in a way that other code can emit warnings based on the metadata.
   - packaging -- setup.py needs to generate separate manifests via manifests
     - `--version` updated
@@ -114,8 +114,6 @@ Ansible Core team and Contributors (from the Contributor Summit at the 2016 Ansi
 
   - Re-enable commit rights (needed for new releases on the stable-2.x branches)
   - Allocate lots of time in schedule to deal with fallout
-  - Revisit the discussion regarding splitting the distribution into multiple packages
-    - Ability to release groups of modules on their own, e.g. (modules-extras) could be released more often that Ansible Core Program
 
 ## Long time after Merge
 
