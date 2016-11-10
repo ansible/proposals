@@ -109,6 +109,7 @@ Ansible Core team and Contributors (from the Contributor Summit at the 2016 Ansi
   - Allocate lots of time in schedule to deal with fallout
   - Revisit the discussion regarding splitting the distribution into multiple packages
     - Ability to release groups of modules on their own, e.g. (modules-extras) could be released more often that Ansible Core Program
+    - It hasn't yet been decided if we will split into multiple packages
 
 ## Long time after Merge
 
