@@ -2,7 +2,7 @@
 
 # Proposal: <proposal name>
 
-*Author*: Your Name <@yourGHid>
+*Author*: Your Name <@yourGHid> IRC: handle (if different)
 
 *Date*: 2016/xx/xx
 
