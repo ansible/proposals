@@ -1,3 +1,5 @@
+### moved to https://github.com/ansible/proposals/issues/7
+
 # Auto Install Ansible roles
 
 *Author*: Will Thames <@willthames>
