@@ -4,7 +4,7 @@
 
 *Author*: Your Name <@yourGHid> IRC: handle (if different)
 
-*Date*: 2016/xx/xx
+*Date*: 2017/xx/xx
 
 - Status: New
 - Proposal type: (core design, process, ?)
