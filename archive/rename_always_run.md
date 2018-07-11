@@ -1,3 +1,5 @@
+### THIS WAS IMPLMENTENTED AS implemented as `check_mode: false|true` to override the command line check mode state
+
 # Rename always_run to ignore_checkmode
 
 *Author*: René Moser <@resmo>

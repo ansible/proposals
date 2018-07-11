@@ -1,3 +1,5 @@
+### merge was done for version 2.3
+
 # Proposal: Proposals - Change how we manage modules in Ansible (the product) and the Ansible Community
 
  - Date: 09 AUGUST, 2016
