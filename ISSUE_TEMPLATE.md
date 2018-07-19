@@ -1,14 +1,14 @@
-<!--- Follow this template to create a proposal. -->
+<!--- This proposal process is designed for discussing core changes or changes to how users interact with Ansible. For ideas or new functionality to existing modules, please open a feature request on ansible/ansible instead. -->
 
 # Proposal: <proposal name>
 
 *Author*: Your Name <@yourGHid> IRC: handle (if different)
 
-*Date*: 2017/xx/xx
+*Date*: 2018-MM-DD
 
 - Status: New
 - Proposal type: (core design, process, ?)
-- Targeted Release: <future release #, ex. 2.2>
+- Targeted release: <future release #, ex. 2.2>
 - Associated PR: <link to GH PR in ansible/proposals if PR was submitted>
 - Estimated time to implement: <X days, weeks, etc.>
 
@@ -25,7 +25,7 @@ What problems exist that this proposal will solve?
 ## Solution proposal
 - Describe your suggested solution here.
 - Insert code in snippets if you would like as shown.
-```
+```yaml
     - include: main.yml
       vars:
          var1: val1
