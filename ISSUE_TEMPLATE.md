@@ -2,7 +2,7 @@
 
 # Proposal: <proposal name>
 
-*Author*: Your Name <@yourGHid> IRC: handle (if different)
+*Author*: Your Name <@yourGithubID> IRC: handle (if different)
 
 *Date*: 2018-MM-DD
 
